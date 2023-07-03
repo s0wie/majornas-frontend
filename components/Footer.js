@@ -56,11 +56,11 @@ const Footer = () => {
             <div className="text-whiteish mt-12 mr-[20px] lg:hidden">
               <div>
                 <p className="mr-[25px]">Tis - Fre</p>
-                <p className="font-bold">{openings.opening_w}</p>
+                <p className="font-bold">11:00-18:00{/*openings.opening_w*/}</p>
               </div>
               <div>
                 <p className="mt-4 mr-[25px]">Lör</p>
-                <p className="font-bold">{openings.opening_s}</p>
+                <p className="font-bold">11:00-15:00{/*openings.opening_s*/}</p>
               </div>
               <div>
                 <p className="mt-4 mr-[25px]">Sön - Mån</p>
@@ -73,12 +73,14 @@ const Footer = () => {
                 <p className="mb-4">Lör</p>
                 <p className="mb-4">Sön</p>
                 <p className="mb-[50px]">Mån</p>
+                <p>Avvikande öppettider kan förekomma röda dagar och sommartid!</p>
               </div>
               <div>
-                <p className="font-bold mb-4">{openings.opening_w}</p>
-                <p className="font-bold mb-4">{openings.opening_s}</p>
+                <p className="font-bold mb-4">11:00-18:00{/*openings.opening_w*/}</p>
+                <p className="font-bold mb-4">11:00-15:00{/*openings.opening_s*/}</p>
                 <p className="font-bold mb-4">{openings.opening_ms}</p>
                 <p className="font-bold mb-4">{openings.opening_ms}</p>
+                <p>Avvikande öppettider kan förekomma röda dagar och sommartid!</p>
               </div>
             </div>
             <div className="text-whiteish mt-[50px] lg:ml-[50px]">
