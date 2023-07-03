@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="mt-4 mr-[25px]">Sön - Mån</p>
-                <p className="font-bold">{openings.opening_ms}</p>
+                <p className="font-bold">Stängt{/*openings.opening_ms*/}</p>
               </div>
                   <p>Avvikande öppettider kan förekomma röda dagar och sommartid!</p>
             </div>
@@ -78,11 +78,11 @@ const Footer = () => {
               <div>
                 <p className="font-bold mb-4">11:00-18:00{/*openings.opening_w*/}</p>
                 <p className="font-bold mb-4">11:00-15:00{/*openings.opening_s*/}</p>
-                <p className="font-bold mb-4">{openings.opening_ms}</p>
-                <p className="font-bold mb-4">{openings.opening_ms}</p>
+                <p className="font-bold mb-4">Stängt{/*openings.opening_ms*/}</p>
+                <p className="font-bold mb-4">Stängt{/*openings.opening_ms*/}</p>
+  <p>Avvikande öppettider kan förekomma röda dagar och sommartid!</p>
               </div>
             </div>
-                  <p>Avvikande öppettider kan förekomma röda dagar och sommartid!</p>
             <div className="text-whiteish mt-[50px] lg:ml-[50px]">
               <ul>
                 <li className="mb-4">
