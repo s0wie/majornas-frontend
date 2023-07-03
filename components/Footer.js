@@ -66,6 +66,7 @@ const Footer = () => {
                 <p className="mt-4 mr-[25px]">Sön - Mån</p>
                 <p className="font-bold">{openings.opening_ms}</p>
               </div>
+                  <p>Avvikande öppettider kan förekomma röda dagar och sommartid!</p>
             </div>
             <div className="text-whiteish mt-[50px] mr-[20px] hidden lg:flex">
               <div className="text-right mr-[20px]">
@@ -73,7 +74,6 @@ const Footer = () => {
                 <p className="mb-4">Lör</p>
                 <p className="mb-4">Sön</p>
                 <p className="mb-[50px]">Mån</p>
-                <p>Avvikande öppettider kan förekomma röda dagar och sommartid!</p>
               </div>
               <div>
                 <p className="font-bold mb-4">11:00-18:00{/*openings.opening_w*/}</p>
