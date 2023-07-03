@@ -55,7 +55,7 @@ const Footer = () => {
           <div className="px-4 pb-4 ml-8 md:ml-0 md:flex md:flex-row-reverse w-[50%] md:justify-between md:mb-[50px] lg:mr-[100px]">
             <div className="text-whiteish mt-12 mr-[20px] lg:hidden">
               <div>
-                <p className="mr-[25px]">Tis - Fre</p>
+                <p className="mr-[25px] w-20">Tis - Fre</p>
                 <p className="font-bold">11:00-18:00{/*openings.opening_w*/}</p>
               </div>
               <div>
